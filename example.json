@@ -1,0 +1,31 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "formatted_address" : "Biedergasse 1, 1190 Wien, Austria",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.2353198,
+               "lng" : 16.3500167
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.23671877989272,
+                  "lng" : 16.35136567989272
+               },
+               "southwest" : {
+                  "lat" : 48.23401912010728,
+                  "lng" : 16.34866602010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "814209595182e06dcd2993987b9214070a92f629",
+         "name" : "Biedergasse 1",
+         "place_id" : "ChIJ85qXaS0GbUcRyuxlqoSFeJs",
+         "reference" : "CmRbAAAATXX_07yJuMA0aBUEOeCn1ROGZVhe11G5g-YIZPVInlDzX3hamHUrhTHc-vjg_xgm-QQlKrCzQX5oYnftLGBUP0Js0DGXR0ArKBXfkhgdpM5XrW8gpbXtnTCQo6uJ7f8oEhCVISXkn5_1sLFzFkXnLgNDGhRo8GQ8nbp-KvaT3sqGS3FOFOsKiw",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
