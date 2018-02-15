@@ -106,7 +106,7 @@ namespace WJRK
 
         private static Address UpdateAddress(string query, string key) {
             // string url = String.Format(@"https://maps.googleapis.com/maps/api/place/textsearch/json?query={0}&location=48.2082,16.3738&radius=50000&language=de&key={1}", query.Replace(" ", "+"), key);
-            string url = String.Format(@"https://maps.googleapis.com/maps/api/geocode/json?address={0}&key={1}", query.Replace(" ", "+"), key);
+            string url = String.Format(@"https://maps.googleapis.com/maps/api/geocode/json?address={0}&key={1}&language=de&region=at", query.Replace(" ", "+"), key);
             WebRequest request = WebRequest.Create(url);
             WebResponse response = request.GetResponse();
             Stream data = response.GetResponseStream();
