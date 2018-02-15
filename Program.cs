@@ -124,7 +124,7 @@ namespace WJRK
                     ret.ZIP = item.long_name;
                 } else if (item.types.ToObject<List<string>>().Contains("locality")){
                     ret.City = item.long_name;
-                } else if (item.types.ToObject<List<string>>().Contains("sublocality")){
+                } else if (item.types.ToObject<List<string>>().Contains("administrative_area_level_1")){
                     ret.Province = item.long_name;
                 } else if (item.types.ToObject<List<string>>().Contains("route")){
                     ret.Addr = item.long_name + ret.Addr;
